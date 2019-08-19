@@ -12,7 +12,6 @@ def get_character_movies_from_api(character_name)
   films = get_films_from_hash(response_hash)
   call_film_urls(films)
 
-
   # iterate over the response hash to find the collection of `films` for the given
   #   `character`
   # collect those film API urls, make a web request to each URL to get the info
